@@ -10,7 +10,13 @@ for number in muestra:
 media = suma/muestra.size
 print(muestra)
 
-def func()
+def func(media):
+    muestra = np.random.uniform(low=0, high=10.0001, size=100)
+    foo = x / 50
+    for num in muestra:
+        y = num
+        x = np.sqrt(100*y)
+        return x
 
 #Media analitica Real
 def MediaAnalitica(a, b):
@@ -62,7 +68,9 @@ MA = MediaAnalitica(a,b)
 MM = MediaMuestral(a, muestra)
 VA = VarianzaAnalitica(a,b)
 VM = VarianzaMuestral(a, muestra)
+#foo = func(media, muestra)
 print("Media Analitica: ",MA)
 print("Media Muestral: ",MM)
 print("Varianza Analitica: ",VA)
 print("Varianza Muestral: ",VM)
+#print("Foo: ", foo)
